@@ -1,0 +1,85 @@
+{
+ "signatures": [
+  {
+   "keyid": "43e01d951e781d6c0c974675ed9c3520d48589baba70df64b0a7f7ceeb91fd63",
+   "sig": "403991ada3f95d55d48e897b1c8ceee397802be56398b012555f091e8e0448ec6a61754adfe6f4dd0ec0661f14f3ba7216d9b804d368e40b0670037fdda5b107"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2027-04-09T12:44:15Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "beta/linux-x64/latest.json": {
+    "hashes": {
+     "sha256": "5929d1f02923f5a97e5aed5384869015ece193b643488a5199718e7e309990da"
+    },
+    "length": 2541
+   },
+   "beta/macos-arm64/latest.json": {
+    "hashes": {
+     "sha256": "effaee2b89fe1cfd9443f15ab9cce091f4bd84918f760015df95da0813b1a80e"
+    },
+    "length": 2548
+   },
+   "beta/windows-x64/latest.json": {
+    "hashes": {
+     "sha256": "09e96719c02f5706f446512fd32c49484db6ea94b4c29fdf5a417522c0f4ae07"
+    },
+    "length": 2560
+   },
+   "v0.1.0-beta.1/Refinix-0.1.0-beta.1-macos-arm64.zip": {
+    "custom": {
+     "build_set": "bs-0103",
+     "channel": "beta",
+     "format": "zip",
+     "lane": "macos-arm64",
+     "maturity": "beta",
+     "public_build": 8,
+     "schema_version": 15,
+     "signing": "unsigned",
+     "version": "0.1.0-beta.1"
+    },
+    "hashes": {
+     "sha256": "7b0ce7c74fe7874eb431bf45858e498f78332ce300391377d6e128254f8075f1"
+    },
+    "length": 44494916
+   },
+   "v0.1.0-beta.1/Refinix-0.1.0-beta.1-windows-x64-setup.exe": {
+    "custom": {
+     "build_set": "bs-0103",
+     "channel": "beta",
+     "format": "exe",
+     "lane": "windows-x64",
+     "maturity": "beta",
+     "public_build": 8,
+     "schema_version": 15,
+     "signing": "unsigned",
+     "version": "0.1.0-beta.1"
+    },
+    "hashes": {
+     "sha256": "61019c7e24866368fa572c6de38da4c4ed1520e55a1d6011de5ad121bf5d2285"
+    },
+    "length": 255327178
+   },
+   "v0.1.0-beta.1/refinix_0.1.0-beta.1_amd64.deb": {
+    "custom": {
+     "build_set": "bs-0103",
+     "channel": "beta",
+     "format": "deb",
+     "lane": "linux-x64",
+     "maturity": "beta",
+     "public_build": 8,
+     "schema_version": 15,
+     "signing": "unsigned",
+     "version": "0.1.0-beta.1"
+    },
+    "hashes": {
+     "sha256": "27621060ace2414fcdc6bb0067c5627c65f7238c2c113dd77e2608b3c5b43cb6"
+    },
+    "length": 58467106
+   }
+  },
+  "version": 1
+ }
+}

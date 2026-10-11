@@ -1,0 +1,99 @@
+{
+  "version": "0.1.0-beta.1",
+  "name": "Refinix Beta 0.1",
+  "maturity": "beta",
+  "public_build": 8,
+  "source_commit": "222c790fc0ed68067f80dde9eca04211c66cca47",
+  "assembled_at": "2026-10-11T12:40:18Z",
+  "release_page": "https://github.com/prachi-satbhai0741/Refinix/releases/tag/v0.1.0-beta.1",
+  "checksums": "https://github.com/prachi-satbhai0741/Refinix/releases/download/v0.1.0-beta.1/SHA256SUMS",
+  "device_testing": "pending",
+  "lanes": {
+    "macos-arm64": {
+      "platform": "macOS",
+      "architecture": "Apple silicon (M1 or later)",
+      "status": "available",
+      "reason": null,
+      "signing": "unsigned",
+      "notarized": false,
+      "seal": "ad-hoc",
+      "install_capability": "provisional",
+      "os_warning": "Not signed or notarised by Apple. macOS blocks the first open: open System Settings \u2192 Privacy & Security, choose Open Anyway for Refinix, then confirm. Check the SHA-256 first.",
+      "device_testing": "pending",
+      "files": [
+        {
+          "format": "dmg",
+          "label": "DMG \u2014 drag to Applications",
+          "name": "Refinix-0.1.0-beta.1-macos-arm64.dmg",
+          "size": 48341454,
+          "sha256": "dff4c3a8dcaa8888cba8177cf8cce0a314067a8f1598c801aed570e975b1ce2d",
+          "minimum_os": "14.0",
+          "url": "https://github.com/prachi-satbhai0741/Refinix/releases/download/v0.1.0-beta.1/Refinix-0.1.0-beta.1-macos-arm64.dmg",
+          "first_install": true,
+          "update_payload": false
+        },
+        {
+          "format": "zip",
+          "label": "ZIP (update payload)",
+          "name": "Refinix-0.1.0-beta.1-macos-arm64.zip",
+          "size": 44494916,
+          "sha256": "7b0ce7c74fe7874eb431bf45858e498f78332ce300391377d6e128254f8075f1",
+          "minimum_os": "14.0",
+          "url": "https://github.com/prachi-satbhai0741/Refinix/releases/download/v0.1.0-beta.1/Refinix-0.1.0-beta.1-macos-arm64.zip",
+          "first_install": false,
+          "update_payload": true
+        }
+      ]
+    },
+    "windows-x64": {
+      "platform": "Windows",
+      "architecture": "x64",
+      "status": "available",
+      "reason": null,
+      "signing": "unsigned",
+      "notarized": false,
+      "seal": null,
+      "install_capability": "provisional",
+      "os_warning": "Not code-signed. Microsoft Defender SmartScreen may warn: choose More info \u2192 Run anyway. With Smart App Control on, Windows 11 blocks unsigned programs and this setup cannot be installed; Refinix does not ask you to turn that off. Check the SHA-256 first.",
+      "device_testing": "pending",
+      "files": [
+        {
+          "format": "exe",
+          "label": "Setup (per user)",
+          "name": "Refinix-0.1.0-beta.1-windows-x64-setup.exe",
+          "size": 255327178,
+          "sha256": "61019c7e24866368fa572c6de38da4c4ed1520e55a1d6011de5ad121bf5d2285",
+          "minimum_os": "Windows 11 (10.0.22000)",
+          "url": "https://github.com/prachi-satbhai0741/Refinix/releases/download/v0.1.0-beta.1/Refinix-0.1.0-beta.1-windows-x64-setup.exe",
+          "first_install": true,
+          "update_payload": true
+        }
+      ]
+    },
+    "linux-x64": {
+      "platform": "Ubuntu",
+      "architecture": "x86_64 (amd64)",
+      "status": "available",
+      "reason": null,
+      "signing": "unsigned",
+      "notarized": false,
+      "seal": null,
+      "install_capability": "provisional",
+      "os_warning": "Ubuntu packages carry no platform signature: check the SHA-256. App Center asks for your password to install it.",
+      "device_testing": "pending",
+      "files": [
+        {
+          "format": "deb",
+          "label": ".deb \u2014 App Center",
+          "name": "refinix_0.1.0-beta.1_amd64.deb",
+          "size": 58467106,
+          "sha256": "27621060ace2414fcdc6bb0067c5627c65f7238c2c113dd77e2608b3c5b43cb6",
+          "minimum_os": "Ubuntu 24.04 or later (glibc 2.39 build host)",
+          "url": "https://github.com/prachi-satbhai0741/Refinix/releases/download/v0.1.0-beta.1/refinix_0.1.0-beta.1_amd64.deb",
+          "first_install": true,
+          "update_payload": true
+        }
+      ]
+    }
+  }
+}
