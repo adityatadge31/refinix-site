@@ -1,0 +1,17 @@
+{
+  "build_set": "bs-0103",
+  "channel": "beta",
+  "engine_release": "b11390",
+  "lane": "macos-arm64",
+  "maturity": "beta",
+  "min_os": "14.0",
+  "notes": "# Refinix Beta 0.1\n\nVersion `0.1.0-beta.1`, build 8, from commit `222c790fc0ed68067f80dde9eca04211c66cca47`.\n\nEvery package was built from the commit above and checked on hosted test machines (Windows Server, Ubuntu 24.04 and macOS runners). **Testing on people's own computers is still pending.** Please report what you see, with your operating system, the Refinix version and the message shown.\n\n## Downloads\n\n| Platform | File | Minimum | SHA-256 |\n|---|---|---|---|\n| macOS (Apple silicon (M1 or later)) | `Refinix-0.1.0-beta.1-macos-arm64.dmg` (DMG \u2014 drag to Applications) | 14.0 | `dff4c3a8dcaa8888cba8177cf8cce0a314067a8f1598c801aed570e975b1ce2d` |\n| macOS (Apple silicon (M1 or later)) | `Refinix-0.1.0-beta.1-macos-arm64.zip` (ZIP (update payload)) | 14.0 | `7b0ce7c74fe7874eb431bf45858e498f78332ce300391377d6e128254f8075f1` |\n| Windows (x64) | `Refinix-0.1.0-beta.1-windows-x64-setup.exe` (Setup (per user)) | Windows 11 (10.0.22000) | `61019c7e24866368fa572c6de38da4c4ed1520e55a1d6011de5ad121bf5d2285` |\n| Ubuntu (x86_64 (amd64)) | `refinix_0.1.0-beta.1_amd64.deb` (.deb \u2014 App Center) | Ubuntu 24.04 or later (glibc 2.39 build host) | `27621060ace2414fcdc6bb0067c5627c65f7238c2c113dd77e2608b3c5b43cb6` |\n\n## Before you install\n\n- **macOS:** Not signed or notarised by Apple. macOS blocks the first open: open System Settings \u2192 Privacy & Security, choose Open Anyway for Refinix, then confirm. Check the SHA-256 first.\n- **Windows:** Not code-signed. Microsoft Defender SmartScreen may warn: choose More info \u2192 Run anyway. With Smart App Control on, Windows 11 blocks unsigned programs and this setup cannot be installed; Refinix does not ask you to turn that off. Check the SHA-256 first.\n- **Ubuntu:** Ubuntu packages carry no platform signature: check the SHA-256. App Center asks for your password to install it.\n\nCheck a download with `shasum -a 256 <file>` (macOS), `sha256sum <file>` (Ubuntu) or `Get-FileHash <file>` (Windows) against `SHA256SUMS`.\n\nIn-app updates are verified with Refinix's signed update metadata before anything is installed; your saved work and the previous version are kept for going back.\n",
+  "payloads": {
+    "zip": "v0.1.0-beta.1/Refinix-0.1.0-beta.1-macos-arm64.zip"
+  },
+  "prerequisites": [],
+  "public_build": 8,
+  "qualified_migrations": [],
+  "schema_version": 15,
+  "version": "0.1.0-beta.1"
+}
